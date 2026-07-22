@@ -1,0 +1,15 @@
+rxcui,name,tty,atc_code,source,verified
+18867,benazepril,IN,C09AA07,RxClass (live),yes
+1998,captopril,IN,C09AA01,RxClass (live),yes
+21102,cilazapril,IN,C09AA08,RxClass (live),yes
+3827,enalapril,IN,C09AA02,RxClass (live),yes
+50166,fosinopril,IN,C09AA09,RxClass (live),yes
+60245,imidapril,IN,C09AA12,RxClass (live),yes
+29046,lisinopril,IN,C09AA03,RxClass (live),yes
+,moexipril,IN,C09AA13,pending scroll/export,no
+,perindopril,IN,C09AA04,pending scroll/export,no
+,quinapril,IN,C09AA06,pending scroll/export,no
+,ramipril,IN,C09AA05,pending scroll/export,no
+,spirapril,IN,C09AA11,pending scroll/export,no
+,trandolapril,IN,C09AA10,pending scroll/export,no
+,zofenopril,IN,C09AA14,pending scroll/export,no

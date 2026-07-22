@@ -1,0 +1,28 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ace-inhibitors",
+  "url": "http://example.org/fhir/ValueSet/ace-inhibitors",
+  "version": "1.0.0",
+  "name": "ACEInhibitors",
+  "title": "ACE Inhibitors",
+  "status": "draft",
+  "experimental": false,
+  "publisher": "Custom",
+  "description": "RxNorm ingredient-level value set for ACE inhibitors (ATC class C09AA). Status: draft, pending full verification of all 14 rows against live RxClass export - see docs/methodology.md.",
+  "compose": {
+    "include": [
+      {
+        "system": "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept": [
+          { "code": "18867", "display": "Benazepril" },
+          { "code": "1998",  "display": "Captopril" },
+          { "code": "21102", "display": "Cilazapril" },
+          { "code": "3827",  "display": "Enalapril" },
+          { "code": "50166", "display": "Fosinopril" },
+          { "code": "60245", "display": "Imidapril" },
+          { "code": "29046", "display": "Lisinopril" }
+        ]
+      }
+    ]
+  }
+}
