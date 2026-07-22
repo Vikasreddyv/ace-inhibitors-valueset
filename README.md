@@ -57,10 +57,15 @@ is in place.
 
 ## Status
 
-⚠️ `data/ace_inhibitors_ingredients.csv` currently contains the ingredients
-confirmed live via the RxClass browser so far. Confirm the full row count (14)
-against your own RxClass export and update if any rows are missing — see
-`docs/methodology.md` for what to check.
+✅ 7 of 14 ingredients verified with live RXCUI + ATC codes
+(benazepril, captopril, cilazapril, enalapril, fosinopril, imidapril, lisinopril).
+
+⏸️ Paused here intentionally — remaining 7 (moexipril, perindopril, quinapril,
+ramipril, spirapril, trandolapril, zofenopril) are marked `pending scroll/export`
+in `data/ace_inhibitors_ingredients.csv` rather than guessed. To finish:
+run `scripts/build_ace_valueset.py`, or manually read the remaining RXCUIs
+from RxClass (`https://mor.nlm.nih.gov/RxClass/`, class `C09AA`, source = ATC)
+and update the CSV.
 
 ## License
 
